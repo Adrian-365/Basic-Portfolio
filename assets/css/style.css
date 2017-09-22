@@ -1,0 +1,41 @@
+body {background-color: #DCDCDC;}
+
+#wrapper {width: 1200px;
+		margin: 0 auto;
+		background-color: #DCDCDC;
+}
+
+#header {background-color: white;
+		height: 80px;
+}
+
+#name {font-size: 24px;
+		color: white;
+		font-family: "Georgia", Times New Roman;
+		background-color: #008080;
+		float: left;	
+		padding: 20px;	
+		margin-top: -80px;
+}
+
+#navlinks {color: grey;
+			float: right;
+			font-family: "Arial", Helvetica;
+			background-color: white;
+			padding: 20px;
+			margin-top: -75px;
+}
+
+#about {background-color: white;
+		width: 400px;
+		float: left;
+		padding: 20px;
+		position: relative;
+	}
+
+#connect {background-color: white;
+		width: 400;
+		float: right;
+		padding: 20px;
+		position: relative;
+}
