@@ -37,7 +37,9 @@ body {background-color: #DCDCDC;}
 	}
 
 #connect {background-color: white;
-		width: 400;
+		font-family: "Georgia", Times New Roman;
+		float: center;
+		width: 200px;
 		float: right;
 		padding: 20px;
 		position: relative;
@@ -54,6 +56,17 @@ h1 {font-family: "Georgia", Times New Roman;
     padding: 10px;
 }
 
+h2 {font-family: "Georgia", Times New Roman;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+    border-bottom-color: Gainsboro;
+    padding: 10px;
+
+}
+
 #headshot {float: left;
 			padding-right: 20px;
 			padding-bottom: 10px;
@@ -63,15 +76,14 @@ h1 {font-family: "Georgia", Times New Roman;
 			float: left;
 }
 
+
+
 /* Style all font awesome icons */
-.fa {
-    padding: 20px;
+.fa {padding: 10px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
-    
-}
+	margin: 0 5px 0 5px;}
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -84,15 +96,21 @@ h1 {font-family: "Georgia", Times New Roman;
 .fa-github {
     background: black;
     color: white;
+    float: left;
+    width: 33%;
 }
 
 /* linkedin */
 .fa-linkedin-square {
     background: blue;
     color: white;
+    float: left;
+	width: 33%;
 }
 
 .fa-stack-overflow {
     background: orange;
     color: white;
+    float: left;
+    width: 33%;
 }
