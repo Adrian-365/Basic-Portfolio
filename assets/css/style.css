@@ -5,29 +5,35 @@ body {background-color: #DCDCDC;}
 }
 
 #header {background-color: white;
-		height: 80px;
+		height: 84px;
+		border-bottom-style: solid;
+		border-bottom-width: medium;
+    	border-bottom-color: #808080;
 }
 
 #name {font-size: 24px;
+	font-weight: bold;
 		color: white;
 		font-family: "Georgia", Times New Roman;
 		background-color: #008080;
 		float: left;	
-		padding: 20px;	
+		padding: 30px;	
 }
-
 #navlinks {color: grey;
 			float: right;
 			font-family: "Arial", Helvetica;
+			font-size: 12px;
 			background-color: white;
-			padding: 20px;
+			padding: 34px;
 }
 
 #about {background-color: white;
-		width: 400px;
+		width: 500px;
 		float: left;
 		padding: 20px;
 		position: relative;
+		margin-top: 20px;
+		overflow: auto;
 	}
 
 #connect {background-color: white;
@@ -35,4 +41,58 @@ body {background-color: #DCDCDC;}
 		float: right;
 		padding: 20px;
 		position: relative;
+		margin-top: 20px;
+}
+
+h1 {font-family: "Georgia", Times New Roman;
+	font-size: 24px;
+	font-weight: bold;
+	color: #008080;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+    border-bottom-color: Gainsboro;
+    padding: 10px;
+}
+
+#headshot {float: left;
+			padding-right: 20px;
+			padding-bottom: 10px;
+}
+
+#narrative {display; flex;
+			float: left;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* github */
+.fa-github {
+    background: black;
+    color: white;
+}
+
+/* linkedin */
+.fa-linkedin-square {
+    background: blue;
+    color: white;
+}
+
+.fa-stack-overflow {
+    background: orange;
+    color: white;
 }
