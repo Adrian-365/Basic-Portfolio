@@ -2,7 +2,6 @@ body {background-color: #DCDCDC;}
 
 #wrapper {width: 1200px;
 		margin: 0 auto;
-		background-color: #DCDCDC;
 }
 
 #header {background-color: white;
@@ -15,7 +14,6 @@ body {background-color: #DCDCDC;}
 		background-color: #008080;
 		float: left;	
 		padding: 20px;	
-		margin-top: -80px;
 }
 
 #navlinks {color: grey;
@@ -23,7 +21,6 @@ body {background-color: #DCDCDC;}
 			font-family: "Arial", Helvetica;
 			background-color: white;
 			padding: 20px;
-			margin-top: -75px;
 }
 
 #about {background-color: white;
