@@ -39,7 +39,7 @@ body {background-color: #DCDCDC;}
 #connect {background-color: white;
 		font-family: "Georgia", Times New Roman;
 		float: center;
-		width: 200px;
+		width: 180px;
 		float: right;
 		padding: 20px;
 		position: relative;
@@ -57,7 +57,7 @@ h1 {font-family: "Georgia", Times New Roman;
 }
 
 h2 {font-family: "Georgia", Times New Roman;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: black;
 	border-bottom-style: solid;
@@ -81,6 +81,7 @@ h2 {font-family: "Georgia", Times New Roman;
 /* Style all font awesome icons */
 .fa {padding: 10px;
     font-size: 30px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
 	margin: 0 5px 0 5px;}
@@ -97,7 +98,7 @@ h2 {font-family: "Georgia", Times New Roman;
     background: black;
     color: white;
     float: left;
-    width: 33%;
+    
 }
 
 /* linkedin */
@@ -105,12 +106,12 @@ h2 {font-family: "Georgia", Times New Roman;
     background: blue;
     color: white;
     float: left;
-	width: 33%;
+	
 }
 
 .fa-stack-overflow {
     background: orange;
     color: white;
-    float: left;
-    width: 33%;
+    float: right;
+    
 }
