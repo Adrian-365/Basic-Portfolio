@@ -178,3 +178,24 @@ h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 	bottom: 50px;
 	z-index: 1;
 }
+
+#contact-name {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+}
+
+#email {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+}
+
+
+/*couldn't get text wrapping or top aligned text to work here.*/
+#message {
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px; 
+	padding: 10px;
+}
