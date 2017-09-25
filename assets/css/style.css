@@ -1,9 +1,7 @@
 * {margin: 0;}
 
-/*found the background I wanted and downloaded it to the asset/images folder but couldn't reference it properly not sure why, seems simple but didn't work*/
-
 html, body {
-		background: whitesmoke;
+		background-image: url(../images/vintage-concrete/vintage-concrete.png);
 		color: #777777;
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		display: flex;
