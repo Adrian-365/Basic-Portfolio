@@ -159,3 +159,22 @@ h2 {font-family: 'Georgia', Times, Times New Roman, serif;
    border-top-width: 16px;
    border-top-color: #4aaaa5;
 }
+
+.portfolio-box {
+	height: 200px;
+	width: 200px;
+	padding: 50px;
+	float: left;
+}
+
+.portfolio-label {
+	color: white;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	width: 200px;
+	position: relative;
+	left: 0;
+	bottom: 50px;
+	z-index: 1;
+}
