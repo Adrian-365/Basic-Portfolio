@@ -1,7 +1,9 @@
 * {margin: 0;}
 
+/*found the background I wanted and downloaded it to the asset/images folder but couldn't reference it properly not sure why, seems simple but didn't work*/
+
 html, body {
-		background: "./assets/images/vintage-concrete/vintage-concrete.png";
+		background: whitesmoke;
 		color: #777777;
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		display: flex;
@@ -27,7 +29,7 @@ html, body {
 	font-weight: bold;
 		color: white;
 		font-family: 'Georgia', Times, Times New Roman, serif;
-		background-color: #4aaaa5;
+		background-color: ;
 		float: left;	
 		padding: 30px;	
 }
@@ -198,4 +200,8 @@ h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 100%;
 	height: 200px; 
 	padding: 10px;
+}
+
+#submit {color: white;
+		background-color: #4aaaa5;
 }
