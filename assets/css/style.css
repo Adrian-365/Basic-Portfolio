@@ -1,11 +1,20 @@
-body {background-color: #F5F5F5;
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+* {margin: 0;}
+
+html, body {
+		background: "./assets/images/vintage-concrete/vintage-concrete.png";
+		color: #777777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		display: flex;
+  		height: 100%;
+  		flex-direction: column;
 	}
 
-#wrapper {width: 900px;
+#wrapper {width: 960px;
 		margin: 0 auto;
 }
+
+.content-wrap {min-height: 100%;
+				margin-bottom: -60px;}
 
 #header {background-color: #ffffff;
 		height: 84px;
@@ -22,7 +31,10 @@ body {background-color: #F5F5F5;
 		float: left;	
 		padding: 30px;	
 }
-#navlinks {color: gray;
+
+#navlinks {box-sizing: border-box;
+			color: #777777;
+			width: 270px;
 			float: right;
 			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 			font-size: 16px;
@@ -30,8 +42,9 @@ body {background-color: #F5F5F5;
 			padding: 34px;
 }
 
-#about {background-color: white;
-		width: 600px;
+#about {box-sizing: border-box;
+	background-color: white;
+		width: 650px;
 		height: auto;
 		line-height: 200%;
 		color: #777777;
@@ -46,10 +59,10 @@ body {background-color: #F5F5F5;
     	margin-bottom: 20px;
 	}
 
-#connect {background-color: white;
+#connect {box-sizing: border-box;
+		background-color: white;
 		font-family: 'Georgia', Times, Times New Roman, serif;
-		float: center;
-		width: 180px;
+		width: 270px;
 		float: right;
 		padding: 20px;
 		position: relative;
@@ -97,7 +110,7 @@ h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 /* Style all font awesome icons */
 .fa {padding: 10px;
     font-size: 30px;
-    width: 30px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
 	margin: 0 5px 0 5px;}
@@ -133,9 +146,7 @@ h2 {font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+	float: left;
    width: 100%;
    height: 44px;
    background-color: #666666;
